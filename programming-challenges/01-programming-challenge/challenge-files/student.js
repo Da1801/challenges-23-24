@@ -134,3 +134,22 @@ function zigZag(car) {
     firstRight(car);
     left(car);
     firstLeft(car);
+}
+function leftOrRight(car) {
+    turnRight(car);
+    forwardUntilWall(car);
+    turnLeft(car);
+    forwardUntilWall(car);
+    turnLeft(car);
+    forwardUntilWall(car);
+    turnRight(car);
+    forwardUntilWall(car);
+}
+function incompleteU(car) {
+    forwardUntilWall(car);
+    turnRight(car);
+    forwardUntilWall(car);
+    turnRight(car);
+    forwardUntilWall(car);
+}
+function 
