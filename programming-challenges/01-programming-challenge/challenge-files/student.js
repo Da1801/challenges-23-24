@@ -152,4 +152,9 @@ function incompleteU(car) {
     turnRight(car);
     forwardUntilWall(car);
 }
-function 
+function whichDirection(car) {
+    while (sensor(car)) {
+    turnLeft(car);
+    }
+    forwardUntilWall(car);
+}
